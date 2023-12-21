@@ -4,7 +4,7 @@ var dev_url="mongodb://127.0.0.1:27017"
 var client=new MongoClient(dev_url)
 
 
-var dbName="my-first-database"
+var dbName="practise_1stBatch"
 
 var dbconnector=async()=>{
     await client.connect()
